@@ -36,11 +36,11 @@ Clicking into the DAG should reveal the DAG's tasks:
 As this is my first personal DE project, I feel there are several areas for improvement. In no particular order:
 
 - **Using cloud tools like AWS**:
-   - **Why**: Cloud tools are much more scalable, accessible, and reliable. It would also allow for easier integration with other cloud tools. 
+   - **Why**: Cloud tools are much more scalable, accessible, and reliable then simply using local file storage. It would also allow for easier integration with other cloud tools in future. 
    
 - **Move scripts into separate `/scripts` folder outside of `/dags`**:
-   - **Why**: Moving the ETL scripts into a dedicated `scripts/` folder would improve organisation of files and project. I am currently unable to make it work as moving the files into such a folder would lead to Airflow being unable to access the files for some reason.
+   - **Why**: Moving the ETL scripts into a dedicated `scripts/` folder would improve the organisation of files and the entire project. I am currently unable to make it work as moving the files into such a folder would lead to Airflow being unable to access the files for some reason.
 
 - **Using Airflow variables for dates**:
-   - **Why**: Using Airflow variables to replace hardcoded `datetime.now()` would make the DAG re-runnable for past dates. Backfilling can be easily done if the need arises.
+   - **Why**: Using Airflow variables to replace the hardcoded `datetime.now()` would make the DAG re-runnable for past dates. Backfilling can be easily done if the need arises.
    
