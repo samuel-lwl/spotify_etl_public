@@ -36,7 +36,7 @@ Clicking into the DAG should reveal the DAG's tasks:
 As this is my first personal DE project, I feel there are several areas for improvement. In no particular order:
 
 - **Using cloud tools like AWS**:
-   - **Why**: Cloud tools are much more scalable, accessible, and reliable then simply using local file storage. It would also allow for easier integration with other cloud tools in future. 
+   - **Why**: Cloud tools are much more scalable, accessible, and reliable than simply using local file storage. It would also allow for easier integration with other cloud tools in future. 
    
 - **Move scripts into separate `/scripts` folder outside of `/dags`**:
    - **Why**: Moving the ETL scripts into a dedicated `scripts/` folder would improve the organisation of files and the entire project. I am currently unable to make it work as moving the files into such a folder would lead to Airflow being unable to access the files for some reason.
