@@ -1,10 +1,10 @@
 # Batch ETL pipeline for Spotify new releases
-This project involves extracting new Spotify releases via Spotify's web API and loading them into a PostgreSQL database:
+This project involves extracting new Spotify releases via Spotify's Web API and loading them into a PostgreSQL database:
 ![pipeline_dragram](./images/pipeline_diagram.png)
 
 ## Core tech tools
 - Python 3.10.14
-- Spotify web API
+- Spotify Web API
 - PostgreSQL
 - Apache Airflow
 - Docker
